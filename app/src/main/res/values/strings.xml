@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TrenaGhorik</string>
+    <string name="slogan">На пути к совершенству</string>
+    <string name="day">День:</string>
+    <string name="days">Дни тренировки</string>
+
+    <string name="exercise">Упражнений</string>
+    <string name="exercises">Упражнения</string>
+
+    <string name="waiting">Запуск</string>
+    <string name="waiting_message">Упражнения начнутся через</string>
+    <string name="start">Начать</string>
+    <string name="next">Далее</string>
+    <string name="done">Конец</string>
+    <string name="done_day">День закончен</string>
+    <string name="rest">Осталось:</string>
+    <string name="rest_days">дней</string>
+    <string name="reset">Сбросить</string>
+    <string name="alert">Внимание</string>
+    <string name="back">Отмена</string>
+    <string name="reset_days_message">Вы действительно хотите сбросить все дни тренировок?</string>
+    <string name="reset_day_message">Хотите сбросить этот день и повторить упражнения?</string>
+
+</resources>
