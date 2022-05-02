@@ -85,7 +85,7 @@ class ExercisesListFragment : Fragment() {
 
     private fun getAllExercise(): Int {
         val exArray = resources.getStringArray(R.array.day_exercises)
-        val count = exArray[model.currentDay - 1].split(",")
+        val count = exArray[model.currentDay-1 ].split(",")
         return count.size
 
     }
