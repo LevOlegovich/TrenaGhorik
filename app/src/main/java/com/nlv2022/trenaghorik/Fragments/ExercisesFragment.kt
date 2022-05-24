@@ -29,7 +29,6 @@ class ExercisesFragment : Fragment() {
     private val model: MainViewModel by activityViewModels() //13
 
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -112,10 +111,12 @@ class ExercisesFragment : Fragment() {
 
     private fun setTimeType(ex: ExerciseModel) {
         if (ex.time.startsWith("x")) {
-            binding.tvNextName.text = ex.time
+            val name =
+                getString(R.string.next) + " ->  " + ex.time
+            binding.tvNextName.text = name
         } else {
             val name =
-                getString(R.string.next) + "  " + ex.name + ": ${TimeUtils.getTime(ex.time.toLong() * 1000)}"
+                getString(R.string.next) + " ->  " + ex.name + ": ${TimeUtils.getTime(ex.time.toLong() * 1000)}"
             binding.tvNextName.text = name
 
         }
